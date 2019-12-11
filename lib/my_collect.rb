@@ -6,3 +6,6 @@ my_collect(languages) do
   while x<languages.length
   newarray<< yield(languages[i])
   x=+1
+end
+newarray
+end
