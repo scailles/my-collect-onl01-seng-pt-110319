@@ -1,6 +1,6 @@
 languages=[]
 
-my_collect(languages) do 
+def my_collect(languages)
   x= 0
   newarray=[]
   while x<languages.length
